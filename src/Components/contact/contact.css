@@ -1,0 +1,84 @@
+.contact {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.contact_main {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: auto;
+}
+
+.phone_number,
+.name {
+  width: 500px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  outline: none;
+}
+
+.select_province {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  outline: none;
+}
+
+
+.submit_btn {
+  width: 100%;
+  background-color: #15192c;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_btn:hover {
+  background-color: #41465f;
+}
+
+.success_message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #41465f;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .phone_number,
+  .name{
+    width: 100%;
+  }
+}

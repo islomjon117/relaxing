@@ -1,0 +1,18 @@
+.cart_main {
+    padding-top: 140px;
+    padding-bottom: 183px;
+}
+
+.cart_main h2 {
+    font-size: 50px;
+}
+
+.cart_info_title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cart_info_box {
+    margin-left: 50px;
+}
+
